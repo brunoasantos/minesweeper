@@ -1,0 +1,13 @@
+<%= form_tag do %>
+<table>
+<% @board.cells.each_with_index do |cells, x| %>
+  <tr>
+    <% cells.each_with_index do |cell, y| %>
+      <td>
+        <%= print_cell(cell, x, y) %>
+      </td>
+    <% end %>
+  </tr>
+<% end %>
+</table>
+<% end %>

@@ -1,6 +1,6 @@
 # README
 
-Here's a basic (and far from complete) version of Minesweeper. NONONONO
+Here's a basic (and far from complete) version of Minesweeper. YESYESYESYES
 
 The game is being saved on the session and can be initialized with board size and amount of mines (althoug UI for this is not implemented).
 
